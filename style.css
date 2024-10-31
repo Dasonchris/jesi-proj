@@ -610,7 +610,15 @@ left: -1.5rem;
   ##Device = Desktops  ##Screen = 1281px to higher resolution desktops
 */
 @media (min-width: 1281px) {
-  /* CSS */
+  #navbar .hamburger{
+    display: none;
+  }
+
+  .hero h4{
+    position: absolute;
+    top: 23rem;
+  }
+
 }
 
 /* 
@@ -618,7 +626,9 @@ left: -1.5rem;
 */
 @media (min-width: 1025px) and (max-width: 1280px) {
   
-  /* CSS */
+  #navbar .hamburger{
+    display: none;
+  }
   
 }
 
@@ -627,7 +637,9 @@ left: -1.5rem;
 */
 @media (min-width: 768px) and (max-width: 1024px) {
   
-  /* CSS */
+  #navbar .hamburger{
+    display: none;
+  }
   
 }
 
@@ -636,7 +648,9 @@ left: -1.5rem;
 */
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   
-  /* CSS */
+  #navbar .hamburger{
+    display: none;
+  }
   
 }
 
@@ -645,9 +659,215 @@ left: -1.5rem;
  ##Screen = B/w 481px to 767px
 */
 @media (min-width: 481px) and (max-width: 767px) {
+  /* HAMBURGER SECTION */
+
+  #navbar .hamburger{
+    display: none;
+  }
+
+  #navbar .navbar{
+    position: relative;
+    top: -2rem;
+    width: 100%;
+  }
+
+  #navbar .join-our-team .join-team{
+    position: relative;
+    top: -4rem;
+    left: 14rem;
+  }
+
+  .join-our-team .vector-image-div{
+    position: relative;
+    top: -4rem;
+    left: 14rem;
+  }
+
+  #contents .contact .loc{
+    position: relative;
+    left: 2.8rem;
+    font-size: 20px;
+  }
+
+  #contents .contact .contact-in .info-first .info-first-loc .loc-vector{
+    position: relative;
+    top: -4rem;
+    left: 14rem;
+  }
+
+  #contents .contact .info-first-text h3{
+    position: relative;
+    left: 3.2rem;
+    font-size: 1.3rem;
+  }
+
+  #contents .store {
+    width: 210%;
+  }
+
+
+  #contents .store .rating-adds{
+    position: relative;
+    top: -4rem;
+    left: -4.9rem;
+  }
+
+  #contents .store .store-first .up-left .rating-star-ima img{
+    position: relative;
+    top: -4rem;
+    left: -14rem;
+  }
+
+  #contents .rating-star .rating-star-text{
+    position: relative;
+    top: -4rem;
+    left: -13.9rem;
+  }
+
+
+  /* .header h1{
+    display: flex;
+    text-transform: capitalize;
+    font-size: 6rem;
+  } */
+
+  .hero{
+    width: 200%;
+  }
+
+  .header h4{
+    margin-bottom: 7rem;
+    gap: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 400%;
+    /* text-align: center; */
+  }
+
+  #contents .header-buttom{
+    justify-content: space-between;
+    /* margin: 6rem; */
+  }
+
+  .hero h4{
+    position: relative;
+    top: 29.9rem;
+    left: 2rem;
+    font-size: 2rem;
+  }
+
+  #contents .main{
+    padding: 7rem;
+  }
+
+  #contents .main .main-header{
+    flex-direction: row;
+    position: relative;
+    left: -3rem;
+    top: -5rem;
+  }
+
+  #contents .store-bottom ul {
+    position: relative;
+    top: -19rem;
+    left: 37rem;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    font-size: 6px;
+  }
+
+  #contents .logo-image{
+    position: relative;
+    top: -13rem;
+    left: 22rem;
+  }
+
+
+  /* NAVIGATION */
+
+  #navbar .navbar .nav-list ul {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    position: relative;
+    top: -2rem;
+    left: -7rem;
+  }
+
+
+
+  nav{
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav-list{
+    /* display: none; */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    /* background-color: #fff; */
+    width: 100%;
+  }
+
+  .nav-list ul{
+    flex-direction: column;
+  }
+
+  .nav-list li {
+    margin-bottom: 20px;
+  }
+
+  .hamburger{
+    display: block;
+  }
+
+  /* HERO SECTION */
   
-  /* CSS */
-  
+  .main-header{
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .box {
+    width: 100%;
+    height: 100px;
+  }
+
+  h1{
+    font-size: 24px;
+  }
+
+  /* CONTACT SECTION */
+
+  .contact {
+    flex-direction: column;
+  }
+
+  .contact-img {
+    width: 100%;
+  }
+
+  .contact-in {
+    padding: 20px;
+  }
+
+  /* STORE SECTION */
+
+  .store-first {
+    flex-direction: column;
+  }
+
+  .store-bottom{
+    padding: 20px;
+  }
+
+  .store-bottom ul{
+    flex-direction: column;
+  }
+
+
 }
 
 /* 
@@ -655,7 +875,195 @@ left: -1.5rem;
   ##Screen = B/w 320px to 479px
 */
 @media (min-width: 320px) and (max-width: 480px) {
-  #navbar{
+
+  #contents .hero h4{
+    position: relative;
+    left: 0.5rem;
+    top: 21rem;
+    font-size: 14px;
+  }
+
+  #contents .main .main-header{
+    display: flex;
+    flex-direction: row;
+  }
+
+  #contents .contact .loc{
+    position: relative;
+    left: 0.2rem;
+  }
+
+  #contents .store .rating-adds{
+    position: relative;
+    top: -3.9rem;
+    left: -0.2rem;
+  }
+
+  #contents .store{
+    position: relative;
+    top: 1.5rem;
+    width: 180%;
+    height: 70%;
+  }
+
+  #contents .contact .info-first-text h3{
+    position: relative;
+    top: 0.5rem;
+    left: 1.3rem;
+  }
+
+  #contents .contact .contact-img img{
+    position: relative;
+    top: -1rem;
+  }
+
+  #contents .contact .contact-in .info-buttom {
+    position: relative;
+    left: 3rem;
+  }
+
+
+  #contents .logo-image{
+    position: relative;
+    left: -8rem;
+  }
+
+
+  #contents .store .store-first .up-left .rating-star{
+    position: relative;
+    top: -1rem;
+    left: 0.9rem;
+  }
+
+  #contents .store-bottom ul {
+    position: relative;
+    top: -17rem;
+    left: 27.5rem;
+    display: flex;
+    flex-direction: row;
+    /* width: 35px; */
+    font-size: 6px;
+    
+  }
+
+  .hero{
+    width: 180%;
+  }
+
+
+  #navbar .navbar{
+    /* width: 60%; */
+    position: relative;
+    top: -1rem;
+    left: -12.9rem;
+  }
+
+#navbar .join-our-team .join-team{
+  position: relative;
+  top: -4rem;
+  left: 16rem;
+}
+
+#navbar .join-our-team .vector-image-div{
+  position: relative;
+  top: -4rem;
+  left: 16rem;
+}
+
+#navbar{
+  display: flex;
+  /* margin-top: 30px; */
+  margin-bottom: 40px;
+  gap: 0.5rem;
+}
+
+
+
+  nav{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-list{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    width: 100%;
+  }
+
+  .nav-list ul{
+    flex-direction: column;
+  }
+
+  .nav-list li{
+    margin-bottom: 10px;
+  }
+.hamburger{
+  display: block;
+}
+
+/* Hero section */
+
+.main-header{
+  flex-direction: column;
+  text-align: center;
+}
+
+.box{
+  width: 100%;
+  height: 80px;
+}
+
+h1{
+  font-size: 18px;
+}
+
+/* contact Section */
+
+.contact{
+  flex-direction: column;
+}
+
+.contact-img{
+  width: 100%;
+}
+
+.contact-in{
+  padding: 10px;
+}
+
+/* Store Section */
+
+.store-first{
+  flex-direction: column;
+}
+
+.store-bottom{
+  padding: 10px;
+}
+
+.store-bottom ul{
+  flex-direction: column;
+}
+
+h4{
+  font-size: 14px;
+}
+
+
+p{
+  font-size: 12px;
+}
+
+.main{
+  padding: 20px;
+}
+
+
+
+  /* #navbar{
     position: fixed;
     width: 100%;
     display: flex;
@@ -692,7 +1100,7 @@ left: -1.5rem;
 
 #contents .contact{
   height: 100%;
-}
+} */
 
 }
 
